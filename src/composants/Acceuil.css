@@ -1,0 +1,42 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-link  {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+}
+a {
+    color: #020c1c;
+    text-decoration: underline;
+}
+#navbar {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Smokum', cursive;
+        font-weight: bold;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+#texte {
+    font-size: 23px;
+    text-align: center;
+        font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.nav{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 8px;
+    justify-content: center;
+    text-align: center;
+}
